@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Admin Helper | Marino Game Vault</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="apple-touch-icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@700;800&family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=admin-release-devices">
+</head>
+<body class="admin-page">
+  <div class="admin-lock" id="adminLock">
+    <div class="admin-lock-panel">
+      <img src="images/logo.png" alt="Marino Game Vault logo">
+      <p class="eyebrow">Admin Access</p>
+      <h1>Game Vault Manager</h1>
+      <form id="passwordForm">
+        <label>Password<input type="password" id="adminPassword" autocomplete="current-password" required></label>
+        <button class="btn btn-primary full" type="submit">Unlock Admin</button>
+        <a class="btn btn-ghost full admin-exit-btn" href="index.html#home">Exit</a>
+      </form>
+      <p class="lock-error" id="lockError" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <header class="admin-header">
+    <a class="brand" href="index.html">
+      <img src="images/logo.png" alt="Marino Game Vault logo">
+      <span>GAME VAULT</span>
+    </a>
+    <a class="btn btn-ghost" href="index.html">Back To Website</a>
+  </header>
+
+  <main class="admin-shell" id="adminContent" hidden>
+    <section class="section-heading">
+      <p class="eyebrow">Admin Helper</p>
+      <h1>Game Catalog Manager</h1>
+      <p class="admin-note">Add, edit, delete, import, and export games. Uploaded covers are automatically resized and converted to WebP before being embedded in the exported <strong>games.json</strong>.</p>
+    </section>
+
+    <section class="admin-actions">
+      <label class="import-box">
+        Import games.json
+        <input type="file" id="importJson" accept="application/json">
+      </label>
+      <button class="btn btn-primary" id="downloadJson" type="button">Download games.json</button>
+      <button class="btn btn-muted" id="resetJson" type="button">Reload Original</button>
+    </section>
+
+    <section class="admin-form stock-manager">
+      <div class="stock-manager-head">
+        <div>
+          <h2>Drive Stock</h2>
+          <p class="admin-note">Set stock to 0 to mark a drive as sold out. Changes apply immediately in this browser.</p>
+        </div>
+        <button class="btn btn-primary" id="downloadStock" type="button">Download drive-stock.json</button>
+      </div>
+      <div class="stock-grid" id="stockGrid"></div>
+      <div class="github-publish">
+        <div>
+          <h3>Publish Live Stock</h3>
+          <p class="admin-note">Updates <strong>data/drive-stock.json</strong> in your GitHub repository. Use a fine-grained token with Contents read/write permission. The token is never saved.</p>
+        </div>
+        <div class="github-publish-fields">
+          <label>Repository<input id="githubRepo" type="text" placeholder="username/repository" autocomplete="off"></label>
+          <label>Branch<input id="githubBranch" type="text" value="main" autocomplete="off"></label>
+          <label>GitHub Token<input id="githubToken" type="password" placeholder="github_pat_..." autocomplete="off"></label>
+          <button class="btn btn-primary" id="publishStock" type="button">Publish Stock</button>
+        </div>
+      </div>
+      <p class="batch-status" id="stockStatus" aria-live="polite"></p>
+    </section>
+
+    <section class="admin-form admin-batch">
+      <div class="admin-batch-head">
+        <div>
+          <h2>Batch Add Games</h2>
+          <p class="admin-note">Paste one game per line. Example: <strong>Cyberpunk 2077 140.88 GB</strong></p>
+        </div>
+        <label>Default Genre
+          <select id="batchGenre">
+            <option>Action</option>
+            <option>Adventure</option>
+            <option>Open World</option>
+            <option>RPG</option>
+            <option>Shooter</option>
+            <option>Racing</option>
+            <option>Sports</option>
+            <option>Horror</option>
+            <option>Fighting</option>
+            <option>Simulation</option>
+            <option>Strategy</option>
+            <option>Indie</option>
+          </select>
+        </label>
+        <label>Graphics Level
+          <select id="batchGraphics">
+            <option value="Low">Low</option>
+            <option value="Mid" selected>Mid</option>
+            <option value="High">High</option>
+          </select>
+        </label>
+      </div>
+      <label>Game List
+        <textarea id="batchInput" rows="8" placeholder="007 First Light 53.27 GB&#10;Assassin's Creed 6.73 GB&#10;Baldur's Gate 3 150.51 GB"></textarea>
+      </label>
+      <div class="form-actions">
+        <button class="btn btn-primary" id="batchAdd" type="button">Add Batch</button>
+        <button class="btn btn-muted" id="batchClear" type="button">Clear</button>
+      </div>
+      <p class="batch-status" id="batchStatus" aria-live="polite"></p>
+    </section>
+
+    <section class="admin-grid">
+      <form class="admin-form" id="gameForm">
+        <h2 id="formTitle">Add New Game</h2>
+        <input type="hidden" id="editIndex">
+        <label>Game Title<input type="text" id="gameTitle" required></label>
+        <label>Genre
+          <select id="gameGenre" required>
+            <option>Action</option>
+            <option>Adventure</option>
+            <option>Open World</option>
+            <option>RPG</option>
+            <option>Shooter</option>
+            <option>Racing</option>
+            <option>Sports</option>
+            <option>Horror</option>
+            <option>Fighting</option>
+            <option>Simulation</option>
+            <option>Strategy</option>
+            <option>Indie</option>
+          </select>
+        </label>
+        <label>Size In GB<input type="number" id="gameSize" min="0" step="0.01" required></label>
+        <label>Graphics Level
+          <select id="gameGraphics" required>
+            <option value="Low">Low</option>
+            <option value="Mid" selected>Mid</option>
+            <option value="High">High</option>
+          </select>
+        </label>
+        <label class="check-row"><input type="checkbox" id="gameNewRelease"> Show In New Releases</label>
+        <label>Release / Added Date<input type="date" id="gameReleaseDate" disabled></label>
+        <label>Cover File Path Or Embedded Image<input type="text" id="gameImage" placeholder="images/covers-webp/new-game-title.webp" required></label>
+        <label class="cover-upload">Upload Cover Image
+          <input type="file" id="coverUpload" accept="image/png,image/jpeg,image/webp">
+        </label>
+        <div class="cover-preview-wrap">
+          <img id="coverPreview" alt="Cover preview">
+          <p id="coverStatus">No cover uploaded yet.</p>
+        </div>
+        <label class="check-row"><input type="checkbox" id="gameController" checked> Controller Support</label>
+        <div class="compat-checks">
+          <label><input type="checkbox" value="Windows Laptop" checked> Windows Laptop</label>
+          <label><input type="checkbox" value="Windows Desktop" checked> Windows Desktop</label>
+          <label><input type="checkbox" value="Windows Handheld Gaming PC" checked> Windows Handheld Gaming PC</label>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit">Save Game</button>
+          <button class="btn btn-muted" id="cancelEdit" type="button">Cancel Edit</button>
+        </div>
+      </form>
+
+      <section class="admin-list-panel">
+        <div class="admin-list-head">
+          <div>
+            <h2>Games</h2>
+            <p id="adminCount">0 games</p>
+          </div>
+          <input type="search" id="adminSearch" placeholder="Search games">
+        </div>
+        <div class="admin-list" id="adminList"></div>
+      </section>
+    </section>
+
+    <section class="admin-form device-manager">
+      <div class="stock-manager-head">
+        <div>
+          <h2>Device Compatibility Manager</h2>
+          <p class="admin-note">Add, edit, or remove brands and models used by the customer Device Tier Check.</p>
+        </div>
+        <button class="btn btn-primary" id="downloadDevices" type="button">Download devices.json</button>
+      </div>
+      <form class="device-form" id="deviceForm">
+        <input type="hidden" id="deviceEditBrand">
+        <input type="hidden" id="deviceEditId">
+        <label>Brand<input id="deviceAdminBrand" type="text" placeholder="ASUS" required></label>
+        <label>Model<input id="deviceAdminModel" type="text" placeholder="ROG Ally X" required></label>
+        <label>Performance Tier<select id="deviceAdminTier"><option>Low</option><option selected>Mid</option><option>High</option></select></label>
+        <label>CPU<input id="deviceAdminCpu" type="text" placeholder="Ryzen Z1 Extreme" required></label>
+        <label>GPU<input id="deviceAdminGpu" type="text" placeholder="Radeon 780M-class" required></label>
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit">Save Device</button>
+          <button class="btn btn-muted" id="cancelDeviceEdit" type="button">Cancel</button>
+        </div>
+      </form>
+      <div class="device-admin-list" id="deviceAdminList"></div>
+      <p class="batch-status" id="deviceStatus" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <script src="js/admin.js?v=release-device-manager"></script>
+</body>
+</html>

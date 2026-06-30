@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Marino Game Vault is a premium plug and play Windows PC gaming catalog with 500+ AAA games ready to build onto external hard drives.">
+  <meta name="keywords" content="Marino Game Vault, PC games, external hard drive games, plug and play gaming">
+  <meta name="theme-color" content="#0A0A0A">
+  <meta property="og:title" content="Marino Game Vault">
+  <meta property="og:description" content="Premium Plug & Play Windows PC Gaming Collection. Windows games ready for laptops, desktops, and handheld gaming PCs.">
+  <meta property="og:type" content="website">
+  <title>Marino Game Vault</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="apple-touch-icon" href="images/logo.png">
+  <link rel="preload" href="images/hero.jpg" as="image" fetchpriority="high">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@600;700;800;900&family=Poppins:wght@400;500;600;700;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=messenger-name-field">
+</head>
+<body>
+  <div class="loader" id="loader" aria-hidden="true">
+    <img src="images/logo.png" alt="" class="loader-logo">
+    <span>Loading Vault</span>
+  </div>
+
+  <header class="site-header" id="home">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Marino Game Vault home">
+        <img src="images/logo.png" alt="Marino logo">
+        <span>GAME VAULT</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#games">Games</a>
+        <a href="#builder">Build My Drive</a>
+        <a href="#guide">How to Play</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-bg" role="img" aria-label="Digital gaming vault with gold lighting"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Premium Plug & Play Windows PC Gaming Collection</p>
+        <h1>MARINO<br><span>GAME VAULT</span></h1>
+        <p class="hero-subtitle">Windows Games Ready For Laptops, Desktops & Handheld Gaming PCs</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#games">Browse Games</a>
+          <a class="btn btn-ghost" href="#builder">Build My Drive</a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="stats section reveal" aria-label="Vault statistics">
+      <article class="stat-card"><strong>87</strong><span>Games Available</span></article>
+      <article class="stat-card"><strong>500GB</strong><span>Minimum Drive</span></article>
+      <article class="stat-card"><strong>4TB</strong><span>Maximum Drive</span></article>
+      <article class="stat-card"><strong>Plug & Play</strong><span>Ready</span></article>
+    </section>
+
+    <section class="section showcase reveal" aria-labelledby="featuredTitle">
+      <div class="section-heading">
+        <p class="eyebrow">Recently Added</p>
+        <h2 id="featuredTitle">New Releases</h2>
+      </div>
+      <div class="carousel" id="featuredCarousel" aria-label="New releases carousel"></div>
+    </section>
+
+    <section class="compatibility section reveal" aria-labelledby="compatibilityTitle">
+      <div class="section-heading compact">
+        <p class="eyebrow">Compatibility</p>
+        <h2 id="compatibilityTitle">Windows Games For Your Setup</h2>
+      </div>
+      <div class="compat-grid">
+        <article><strong>Windows Laptop</strong><span>Portable plug-and-play gaming</span></article>
+        <article><strong>Windows Desktop</strong><span>Ready for PC towers and workstations</span></article>
+        <article><strong>Windows Handhelds</strong><span>Popular handheld gaming PCs included</span></article>
+        <article><strong>Major Brands</strong><span>ASUS, Lenovo, MSI, AYANEO, GPD and more</span></article>
+      </div>
+      <div class="device-checker" aria-labelledby="deviceCheckerTitle">
+        <div class="device-checker-copy">
+          <strong id="deviceCheckerTitle">Device Tier Check</strong>
+          <span>Select your brand and model</span>
+        </div>
+        <label>Brand<select id="deviceBrand"><option value="">Select brand</option></select></label>
+        <label>Model<select id="deviceModel" disabled><option value="">Select brand first</option></select></label>
+        <div class="device-result" id="deviceResult" aria-live="polite">
+          <span>Detected Tier</span><strong>Not checked</strong><small>Choose a device model</small>
+        </div>
+      </div>
+      <p class="compatibility-notice"><strong>Compatibility Notice:</strong> This tier is an estimate only. Customers are responsible for confirming that their device meets each game's system requirements.</p>
+      <div class="product-comparison" aria-label="Drive product comparison">
+        <article class="product-family">
+          <header><div><span>Value Choice</span><h3>Portable HDD</h3></div></header>
+          <p>Tested 2.5&quot; SATA drive in a high-speed USB 3.0 enclosure. USB-powered with no separate adapter.</p>
+          <div class="product-variants">
+            <button class="product-variant" type="button" data-select-drive="portable-500"><span>500GB</span><strong>₱1,599</strong><small data-product-stock="Portable HDD 500GB">Checking stock</small></button>
+            <button class="product-variant" type="button" data-select-drive="portable-1tb"><span>1TB</span><strong>₱2,599</strong><small data-product-stock="Portable HDD 1TB">Checking stock</small></button>
+          </div>
+        </article>
+        <article class="product-family premium">
+          <header><div><span>Factory Built</span><h3>Seagate External HDD</h3></div></header>
+          <p>Genuine Seagate external drive with USB 3.0 Plug &amp; Play reliability.</p>
+          <div class="product-variants">
+            <button class="product-variant" type="button" data-select-drive="seagate-1tb"><span>1TB One Touch</span><strong>₱4,500</strong><small data-product-stock="Seagate One Touch 1TB">Checking stock</small></button>
+            <button class="product-variant" type="button" data-select-drive="seagate-2tb"><span>2TB</span><strong>₱6,500</strong><small data-product-stock="Seagate External HDD 2TB">Checking stock</small></button>
+            <button class="product-variant" type="button" data-select-drive="seagate-4tb"><span>4TB</span><strong>₱9,800</strong><small data-product-stock="Seagate External HDD 4TB">Checking stock</small></button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="catalog section" id="games">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Full Game Catalog</p>
+        <h2>Browse The Vault</h2>
+      </div>
+      <div class="catalog-control-dock reveal">
+        <label class="compact-field compact-search" for="searchInput">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Search games">
+        </label>
+        <div class="compact-graphics">
+          <span>Graphics</span>
+          <div class="graphics-filters" id="graphicsFilters" aria-label="Graphics level filters"></div>
+        </div>
+        <label class="compact-field" for="sortSelect">
+          <span>Sort</span>
+          <select id="sortSelect">
+            <option value="az">A-Z</option>
+            <option value="za">Z-A</option>
+            <option value="sizeAsc">Size: Smallest</option>
+            <option value="sizeDesc">Size: Largest</option>
+          </select>
+        </label>
+        <div class="filters" id="filters" aria-label="Game category filters"></div>
+        <div class="legacy-actions" aria-hidden="true">
+          <button class="filter-btn active" type="button" data-sort="az">A-Z</button>
+          <button class="filter-btn" type="button" data-sort="za">Z-A</button>
+          <button class="filter-btn" type="button" data-sort="sizeAsc">Size ↑</button>
+          <button class="filter-btn" type="button" data-sort="sizeDesc">Size ↓</button>
+          <button class="btn btn-muted" type="button" id="clearSelectionTop">Clear All</button>
+        </div>
+      </div>
+      <div class="tier-legend" aria-label="Graphics tier guide">
+        <span class="tier-low"><i></i><strong>Low</strong> Entry-level</span>
+        <span class="tier-mid"><i></i><strong>Mid</strong> Mainstream</span>
+        <span class="tier-high"><i></i><strong>High</strong> Performance</span>
+      </div>
+      <p class="result-count" id="resultCount" aria-live="polite"></p>
+      <div class="game-grid" id="gameGrid"></div>
+      <nav class="catalog-pagination" id="catalogPagination" aria-label="Game catalog pages">
+        <button type="button" id="previousPage" aria-label="Previous page">&#8249;</button>
+        <span id="pageStatus" aria-live="polite">Page 1 of 1</span>
+        <button type="button" id="nextPage" aria-label="Next page">&#8250;</button>
+      </nav>
+    </section>
+
+    <section class="builder section" id="builder">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Build My Drive</p>
+        <h2>Selection & Capacity</h2>
+      </div>
+      <p class="builder-note reveal">Add games from the catalog and use the floating vault panel to track your selected games, drive size, and storage remaining.</p>
+    </section>
+
+    <section class="guide section" id="guide">
+      <div class="section-heading reveal">
+        <p class="eyebrow">How to Play</p>
+        <h2>Launch Games With The Launcher</h2>
+      </div>
+      <div class="guide-grid reveal">
+        <article><span>01</span><h3>Connect The Drive</h3><p>Plug the external drive directly into a USB 3.0 port and wait for Windows to show it in File Explorer.</p></article>
+        <article><span>02</span><h3>Open The Launcher</h3><p>Open the Marino Game Vault folder on the drive and run the Launcher. Choose Desktop Mode for mouse and keyboard, or Fullscreen Mode when using a controller.</p></article>
+        <article><span>03</span><h3>Browse Your Library</h3><p>Use the cover library, search, or filters to find a game. The included titles are already organized inside the Launcher.</p></article>
+        <article><span>04</span><h3>Launch A Game</h3><p>Select a cover and press Play. Keep the drive connected while playing and safely close the game before unplugging it.</p></article>
+        <article><span>05</span><h3>Fix A Missing Path</h3><p>If the Launcher cannot find a game after the drive letter changes, reconnect the drive or update the game's Play Action path and Working Directory to its folder.</p></article>
+        <article><span>06</span><h3>Add A Missing Game</h3><p>In the Launcher, choose Add Game then Scan Automatically and select the game's folder. You can also drag its executable into the Launcher window.</p></article>
+        <article><span>07</span><h3>Common Fixes</h3><p>Restart the Launcher in Safe Mode if it will not open. For game errors, update GPU drivers and install the included DirectX or Visual C++ components. Do not move individual game files.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <aside class="floating-vault" id="floatingVault" aria-label="Selected games and capacity panel">
+    <button class="vault-toggle" id="vaultToggle" type="button" aria-expanded="false" aria-controls="vaultBody">
+      <span>My Build</span>
+      <small id="vaultMini">0GB used</small>
+      <strong id="selectedCount">0</strong>
+    </button>
+    <div class="vault-mini-meter" aria-label="Drive capacity summary">
+      <div><span>Used <strong id="miniUsedSpace">0GB</strong></span><span>Remaining <strong id="miniRemainingSpace">500GB</strong></span></div>
+      <div class="mini-progress"><i id="miniCapacityBar"></i></div>
+    </div>
+    <div class="vault-body" id="vaultBody">
+      <div class="meter-info">
+        <span>Used: <strong id="usedSpace">0GB</strong></span>
+        <span>Remaining: <strong id="remainingSpace">500GB</strong></span>
+      </div>
+      <div class="progress" aria-label="Drive space used">
+        <div id="capacityBar"></div>
+      </div>
+      <p id="capacityText">0% used</p>
+      <div class="drive-options" id="driveOptions" aria-label="Drive size options"></div>
+      <div class="vault-price-summary" id="vaultPricing" aria-live="polite"></div>
+      <div class="selected-list" id="selectedList"></div>
+      <div class="vault-actions" id="preCheckoutActions">
+        <button class="btn btn-primary full" id="checkoutButton" type="button">Checkout</button>
+      </div>
+      <div class="vault-post-actions" id="postCheckoutActions" hidden>
+        <button class="btn btn-muted" id="editDetails" type="button">Edit Details</button>
+        <button class="btn btn-muted" id="exportPdfPanel" type="button">Export PDF</button>
+        <button class="btn btn-primary" id="sendMessenger" type="button">Send to Messenger</button>
+      </div>
+      <p class="vault-action-note" id="vaultActionNote" hidden></p>
+    </div>
+  </aside>
+
+  <div class="checkout-modal" id="checkoutModal" hidden>
+    <section class="checkout-dialog" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+      <header class="checkout-dialog-header">
+        <div>
+          <p class="eyebrow">Delivery Details</p>
+          <h2 id="checkoutTitle">Complete Checkout</h2>
+        </div>
+        <button class="modal-close" id="closeCheckout" type="button" aria-label="Close checkout">&times;</button>
+      </header>
+      <div class="checkout-review-step" id="checkoutReviewStep">
+        <div class="checkout-review-head">
+          <div><span>Order Reference</span><strong id="reviewOrderReference">MGV</strong></div>
+          <small>Review your build before entering delivery details.</small>
+        </div>
+        <div class="checkout-review-summary" id="checkoutReviewSummary"></div>
+        <div class="checkout-review-games" id="checkoutReviewGames"></div>
+        <button class="btn btn-primary full" id="continueToDelivery" type="button">Continue To Delivery</button>
+      </div>
+
+      <div class="delivery-choice-step" id="deliveryChoiceStep" hidden>
+        <button class="delivery-back" id="backToOrderReview" type="button">&larr; Order Review</button>
+        <fieldset class="delivery-services">
+          <legend>Choose Delivery Service</legend>
+          <div class="delivery-service-grid">
+            <button class="delivery-service" id="selectLbc" type="button" data-service="LBC" aria-pressed="false">
+              <span>LBC</span><strong>Cash on Pickup</strong><small>Collect from your selected LBC branch</small>
+            </button>
+            <button class="delivery-service" id="selectLalamove" type="button" data-service="Lalamove" aria-pressed="false">
+              <span>Lalamove</span><strong>Priority</strong><small>Direct Metro Manila motorcycle delivery</small>
+            </button>
+          </div>
+        </fieldset>
+      </div>
+
+      <form class="delivery-form" id="deliveryForm" data-service="" hidden>
+        <button class="delivery-back" id="backToDeliveryOptions" type="button">&larr; Delivery Options</button>
+        <h3 class="delivery-form-title" id="deliveryFormTitle">Delivery Details</h3>
+        <div class="delivery-fields">
+          <label>Name<input id="deliveryName" type="text" autocomplete="name" required></label>
+          <label>Messenger Name<input id="deliveryMessengerName" type="text" autocomplete="off" placeholder="Name used on Messenger" required></label>
+          <label>Contact Number
+            <div class="phone-input"><span aria-hidden="true">+63</span><input id="deliveryContact" type="tel" inputmode="numeric" autocomplete="tel-national" maxlength="10" pattern="[0-9]{10}" placeholder="9XXXXXXXXX" aria-describedby="deliveryContactError" required></div>
+            <small class="field-error" id="deliveryContactError" aria-live="polite"></small>
+          </label>
+          <label>Region<select id="deliveryRegion" required><option value="">Loading regions...</option></select></label>
+          <label>City / Municipality<select id="deliveryCity" required disabled><option value="">Select region first</option></select></label>
+          <label class="lbc-only" hidden>LBC Branch<input id="deliveryLbcBranch" type="text" placeholder="Enter preferred LBC branch" autocomplete="off"></label>
+          <label class="lalamove-only">Barangay<select id="deliveryBarangay" required disabled><option value="">Select city first</option></select></label>
+          <input id="deliveryZip" type="hidden">
+          <label class="wide lalamove-only">Complete Address<textarea id="deliveryAddress" autocomplete="street-address" rows="3" required></textarea></label>
+          <label class="wide lalamove-only">Nearest Landmark<input id="deliveryLandmark" type="text" required></label>
+        </div>
+
+        <div class="shipping-summary" id="shippingSummary" aria-live="polite">
+          <span>Estimated Shipping</span><strong>Select a delivery location</strong>
+        </div>
+        <div class="checkout-price-summary" id="checkoutPricing" aria-live="polite"></div>
+        <p class="shipping-note">Fees are rounded up to the next ₱10 and estimated for a small parcel under 1kg. LBC estimates are based on the selected region. Lalamove includes a 30% Priority allowance. Final courier pricing may vary by exact destination, traffic, demand, tolls, and surcharges.</p>
+        <div class="shipping-links">
+          <a href="https://www.lbcexpress.com/branches" target="_blank" rel="noopener">LBC Branch Locator</a>
+          <a href="https://www.lbcexpress.com/rates" target="_blank" rel="noopener">LBC Rate Calculator</a>
+          <a href="https://www.lalamove.com/en-ph/all-delivery-pricing-detail" target="_blank" rel="noopener">Lalamove Rates</a>
+        </div>
+        <label class="compatibility-consent">
+          <input id="compatibilityConsent" type="checkbox" required>
+          <span>I have checked my device specifications and accept responsibility for game compatibility and performance.</span>
+        </label>
+        <button class="btn btn-primary checkout-confirm" type="submit">Save Delivery Details</button>
+      </form>
+    </section>
+  </div>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+  <footer class="footer">
+    <div>
+      <img src="images/logo.png" alt="Marino logo">
+      <h2>MARINO GAME VAULT</h2>
+      <p>Premium Plug & Play Gaming Collection</p>
+    </div>
+    <nav aria-label="Footer navigation">
+      <a href="#home">Home</a>
+      <a href="#games">Games</a>
+      <a href="#builder">Build My Drive</a>
+      <a href="#guide">How to Play</a>
+    </nav>
+    <small>© 2026 Marino Game Vault</small>
+  </footer>
+
+  <script src="js/app.js?v=messenger-name-field" defer></script>
+</body>
+</html>

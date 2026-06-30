@@ -1,0 +1,1220 @@
+[
+  {
+    "title": "007 First Light",
+    "genre": "Action",
+    "size": 53.27,
+    "controller": true,
+    "image": "images/covers-webp/007-first-light.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Assassin's Creed",
+    "genre": "Open World",
+    "size": 6.73,
+    "controller": true,
+    "image": "images/covers-webp/assassin-s-creed.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Assassin's Creed - Odyssey",
+    "genre": "Open World",
+    "size": 89.21,
+    "controller": true,
+    "image": "images/covers-webp/assassin-s-creed-odyssey.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "Assassin's Creed - Origins",
+    "genre": "Open World",
+    "size": 69.06,
+    "controller": true,
+    "image": "images/covers-webp/assassin-s-creed-origins.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Assassin's Creed - Valhalla",
+    "genre": "Open World",
+    "size": 143.96,
+    "controller": true,
+    "image": "images/covers-webp/assassin-s-creed-valhalla.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "Assassin's Creed 2",
+    "genre": "Open World",
+    "size": 6.04,
+    "controller": true,
+    "image": "images/covers-webp/assassin-s-creed-2.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Assassin's Creed Brotherhood",
+    "genre": "Open World",
+    "size": 7.1,
+    "controller": true,
+    "image": "images/covers-webp/assassin-s-creed-brotherhood.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Baldur's Gate 3",
+    "genre": "RPG",
+    "size": 150.51,
+    "controller": false,
+    "image": "images/covers-webp/baldur-s-gate-3.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "Batman - Arkham Asylum",
+    "genre": "Action",
+    "size": 7.61,
+    "controller": true,
+    "image": "images/covers-webp/batman-arkham-asylum.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Batman - Arkham City",
+    "genre": "Action",
+    "size": 16.91,
+    "controller": true,
+    "image": "images/covers-webp/batman-arkham-city.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Battlefield 1",
+    "genre": "Shooter",
+    "size": 49.73,
+    "controller": true,
+    "image": "images/covers-webp/battlefield-1.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Battlefield 4",
+    "genre": "Shooter",
+    "size": 72.16,
+    "controller": true,
+    "image": "images/covers-webp/battlefield-4.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Battlefield 6",
+    "genre": "Shooter",
+    "size": 102.43,
+    "controller": true,
+    "image": "images/covers-webp/battlefield-6.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "Battlefield Bad Company 2",
+    "genre": "Shooter",
+    "size": 8.48,
+    "controller": true,
+    "image": "images/covers-webp/battlefield-bad-company-2.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Battlefield V",
+    "genre": "Shooter",
+    "size": 50.01,
+    "controller": true,
+    "image": "images/covers-webp/battlefield-v.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "BioShock 1 Remastered",
+    "genre": "Action",
+    "size": 20.66,
+    "controller": true,
+    "image": "images/covers-webp/bioshock-1-remastered.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "BioShock 2 Remastered",
+    "genre": "Action",
+    "size": 19.95,
+    "controller": true,
+    "image": "images/covers-webp/bioshock-2-remastered.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "BioShock 3 Infinite (Complete Edition)",
+    "genre": "Action",
+    "size": 43.33,
+    "controller": true,
+    "image": "images/covers-webp/bioshock-3-infinite-complete-edition.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Black Myth - Wukong",
+    "genre": "Action",
+    "size": 140.72,
+    "controller": true,
+    "image": "images/covers-webp/black-myth-wukong.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "Blasphemous",
+    "genre": "Indie",
+    "size": 0.84,
+    "controller": true,
+    "image": "images/covers-webp/blasphemous.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Call of Duty - Black Ops 2",
+    "genre": "Shooter",
+    "size": 22.21,
+    "controller": true,
+    "image": "images/covers-webp/call-of-duty-black-ops-2.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Call of Duty - Modern Warfare 2 Remastered",
+    "genre": "Shooter",
+    "size": 64.83,
+    "controller": true,
+    "image": "images/covers-webp/call-of-duty-modern-warfare-2-remastered.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Choo-Choo Charles",
+    "genre": "Horror",
+    "size": 2.03,
+    "controller": true,
+    "image": "images/covers-webp/choo-choo-charles.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Cult of the Lamb",
+    "genre": "Indie",
+    "size": 2.53,
+    "controller": true,
+    "image": "images/covers-webp/cult-of-the-lamb.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Cuphead",
+    "genre": "Indie",
+    "size": 5.98,
+    "controller": true,
+    "image": "images/covers-webp/cuphead.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Cyberpunk 2077",
+    "genre": "Open World",
+    "size": 140.88,
+    "controller": true,
+    "image": "images/covers-webp/cyberpunk-2077.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "Dave The Diver",
+    "genre": "Indie",
+    "size": 9.1,
+    "controller": true,
+    "image": "images/covers-webp/dave-the-diver.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Days Gone",
+    "genre": "Open World",
+    "size": 62.82,
+    "controller": true,
+    "image": "images/covers-webp/days-gone.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Devil May Cry - DmC",
+    "genre": "Action",
+    "size": 10.82,
+    "controller": true,
+    "image": "images/covers-webp/devil-may-cry-dmc.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Devil May Cry 1,2,3 HD Collection",
+    "genre": "Action",
+    "size": 11.3,
+    "controller": true,
+    "image": "images/covers-webp/devil-may-cry-1-2-3-hd-collection.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Devil May Cry 4 - Special Edition",
+    "genre": "Action",
+    "size": 24.96,
+    "controller": true,
+    "image": "images/covers-webp/devil-may-cry-4-special-edition.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Devil May Cry 5",
+    "genre": "Action",
+    "size": 33.97,
+    "controller": true,
+    "image": "images/covers-webp/devil-may-cry-5.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Diablo II - Resurrected",
+    "genre": "RPG",
+    "size": 37.76,
+    "controller": true,
+    "image": "images/covers-webp/diablo-ii-resurrected.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Dishonored",
+    "genre": "Action",
+    "size": 13.84,
+    "controller": true,
+    "image": "images/covers-webp/dishonored.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Dispatch",
+    "genre": "Action",
+    "size": 14.3,
+    "controller": true,
+    "image": "images/covers-webp/dispatch.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Doom",
+    "genre": "Shooter",
+    "size": 68.82,
+    "controller": true,
+    "image": "images/covers-webp/doom.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Doom - Eternal",
+    "genre": "Shooter",
+    "size": 89.53,
+    "controller": true,
+    "image": "images/covers-webp/doom-eternal.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "Doom - The Dark Ages",
+    "genre": "Shooter",
+    "size": 83.39,
+    "controller": true,
+    "image": "images/covers-webp/doom-the-dark-ages.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "Doom+Doom 2",
+    "genre": "Shooter",
+    "size": 1.15,
+    "controller": true,
+    "image": "images/covers-webp/doom-doom-2.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Dragon Ball FighterZ",
+    "genre": "Fighting",
+    "size": 6,
+    "controller": true,
+    "image": "images/covers-webp/dragon-ball-fighterz.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Dragon Ball Z - Kakarot",
+    "genre": "Action",
+    "size": 40.32,
+    "controller": true,
+    "image": "images/covers-webp/dragon-ball-z-kakarot.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Elden Ring",
+    "genre": "RPG",
+    "size": 50.64,
+    "controller": true,
+    "image": "images/covers-webp/elden-ring.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Fallout 3",
+    "genre": "RPG",
+    "size": 8.57,
+    "controller": true,
+    "image": "images/covers-webp/fallout-3.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Fallout 4",
+    "genre": "RPG",
+    "size": 98.92,
+    "controller": true,
+    "image": "images/covers-webp/fallout-4.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "Fallout New Vegas",
+    "genre": "RPG",
+    "size": 9.23,
+    "controller": true,
+    "image": "images/covers-webp/fallout-new-vegas.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Far Cry - Primal",
+    "genre": "Open World",
+    "size": 19.69,
+    "controller": true,
+    "image": "images/covers-webp/far-cry-primal.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Far Cry 2",
+    "genre": "Open World",
+    "size": 3.45,
+    "controller": true,
+    "image": "images/covers-webp/far-cry-2.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Forza Horizon 5",
+    "genre": "Racing",
+    "size": 176.7,
+    "controller": true,
+    "image": "images/covers-webp/forza-horizon-5.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "God of War",
+    "genre": "Action",
+    "size": 61.72,
+    "controller": true,
+    "image": "images/covers-webp/god-of-war.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Grand Theft Auto V",
+    "genre": "Open World",
+    "size": 104.95,
+    "controller": true,
+    "image": "images/covers-webp/grand-theft-auto-v.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "Hades",
+    "genre": "Indie",
+    "size": 11.46,
+    "controller": true,
+    "image": "images/covers-webp/hades.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Half-Life 2",
+    "genre": "Action",
+    "size": 10.21,
+    "controller": true,
+    "image": "images/covers-webp/half-life-2.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Hitman Absolution",
+    "genre": "Action",
+    "size": 23.38,
+    "controller": true,
+    "image": "images/covers-webp/hitman-absolution.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Horizon Forbidden West (Complete Edition)",
+    "genre": "Open World",
+    "size": 124.88,
+    "controller": true,
+    "image": "images/covers-webp/horizon-forbidden-west-complete-edition.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "Horizon Zero Dawn (Remastered)",
+    "genre": "Open World",
+    "size": 122.05,
+    "controller": true,
+    "image": "images/covers-webp/horizon-zero-dawn-remastered.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "Invincible VS",
+    "genre": "Fighting",
+    "size": 11.29,
+    "controller": true,
+    "image": "images/covers-webp/invincible-vs.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Jujutsu Kaisen - Cursed Clash",
+    "genre": "Action",
+    "size": 9.7,
+    "controller": true,
+    "image": "images/covers-webp/jujutsu-kaisen-cursed-clash.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Jump Force",
+    "genre": "Fighting",
+    "size": 20.16,
+    "controller": true,
+    "image": "images/covers-webp/jump-force.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Jusant",
+    "genre": "Indie",
+    "size": 8.85,
+    "controller": true,
+    "image": "images/covers-webp/jusant.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Lords of the Fallen",
+    "genre": "RPG",
+    "size": 34.19,
+    "controller": true,
+    "image": "images/covers-webp/lords-of-the-fallen.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Mafia - Definitive Edition",
+    "genre": "Action",
+    "size": 27.47,
+    "controller": true,
+    "image": "images/covers-webp/mafia-definitive-edition.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Metal Gear Solid Ground Zeroes",
+    "genre": "Action",
+    "size": 2.83,
+    "controller": true,
+    "image": "images/covers-webp/metal-gear-solid-ground-zeroes.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Metal Gear Solid Master Collection",
+    "genre": "Action",
+    "size": 110.41,
+    "controller": true,
+    "image": "images/covers-webp/metal-gear-solid-master-collection.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "Metal Slug Tactics",
+    "genre": "Indie",
+    "size": 1.52,
+    "controller": true,
+    "image": "images/covers-webp/metal-slug-tactics.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "My Friend Pedro",
+    "genre": "Indie",
+    "size": 3.56,
+    "controller": true,
+    "image": "images/covers-webp/my-friend-pedro.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Naruto X Boruto Ultimate Ninja Storm Connections",
+    "genre": "Action",
+    "size": 29.22,
+    "controller": true,
+    "image": "images/covers-webp/naruto-x-boruto-ultimate-ninja-storm-connections.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "NBA 2K23",
+    "genre": "Sports",
+    "size": 131.56,
+    "controller": true,
+    "image": "images/covers-webp/nba-2k23.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "Need for Speed - Most Wanted",
+    "genre": "Racing",
+    "size": 6.24,
+    "controller": true,
+    "image": "images/covers-webp/need-for-speed-most-wanted.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "One Piece - Pirate Warriors 4",
+    "genre": "Action",
+    "size": 21.68,
+    "controller": true,
+    "image": "images/covers-webp/one-piece-pirate-warriors-4.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Palworld",
+    "genre": "Open World",
+    "size": 19.23,
+    "controller": true,
+    "image": "images/covers-webp/palworld.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Pragmata",
+    "genre": "Action",
+    "size": 34.72,
+    "controller": true,
+    "image": "images/covers-webp/pragmata.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Red Dead Redemption 2",
+    "genre": "Open World",
+    "size": 119.25,
+    "controller": true,
+    "image": "images/covers-webp/red-dead-redemption-2.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "Resident Evil 2 (Remake)",
+    "genre": "Horror",
+    "size": 23.88,
+    "controller": true,
+    "image": "images/covers-webp/resident-evil-2-remake.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Resident Evil 8 - Village",
+    "genre": "Horror",
+    "size": 37.05,
+    "controller": true,
+    "image": "images/covers-webp/resident-evil-8-village.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Resident Evil 9 - Requiem",
+    "genre": "Horror",
+    "size": 76.03,
+    "controller": true,
+    "image": "images/covers-webp/resident-evil-9-requiem.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "Sea of Stars",
+    "genre": "Indie",
+    "size": 4.86,
+    "controller": true,
+    "image": "images/covers-webp/sea-of-stars.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Sekiro - Shadows Die Twice",
+    "genre": "Action",
+    "size": 14.21,
+    "controller": true,
+    "image": "images/covers-webp/sekiro-shadows-die-twice.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Sifu",
+    "genre": "Action",
+    "size": 30.11,
+    "controller": true,
+    "image": "images/covers-webp/sifu.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Sleeping Dogs Pack",
+    "genre": "Action",
+    "size": 27.79,
+    "controller": true,
+    "image": "images/covers-webp/sleeping-dogs-pack.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Spider-man Remastered",
+    "genre": "Action",
+    "size": 65.28,
+    "controller": true,
+    "image": "images/covers-webp/spider-man-remastered.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Stellar Blade",
+    "genre": "Action",
+    "size": 61.83,
+    "controller": true,
+    "image": "images/covers-webp/stellar-blade.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Tekken 8",
+    "genre": "Fighting",
+    "size": 87.45,
+    "controller": true,
+    "image": "images/covers-webp/tekken-8.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "High"
+  },
+  {
+    "title": "The Elder Scrolls V - Skyrim (Anniversary Edition)",
+    "genre": "RPG",
+    "size": 18.65,
+    "controller": true,
+    "image": "images/covers-webp/the-elder-scrolls-v-skyrim-anniversary-edition.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "The Last of Us - Part I",
+    "genre": "Action",
+    "size": 66.84,
+    "controller": true,
+    "image": "images/covers-webp/the-last-of-us-part-i.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Mid"
+  },
+  {
+    "title": "Tomb Raider Underworld",
+    "genre": "Action",
+    "size": 7.37,
+    "controller": true,
+    "image": "images/covers-webp/tomb-raider-underworld.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Undisputed",
+    "genre": "Sports",
+    "size": 17.11,
+    "controller": true,
+    "image": "images/covers-webp/undisputed.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  },
+  {
+    "title": "Watch Dogs",
+    "genre": "Open World",
+    "size": 16.59,
+    "controller": true,
+    "image": "images/covers-webp/watch-dogs.webp",
+    "compatibility": [
+      "Windows Laptop",
+      "Windows Desktop",
+      "Steam Deck",
+      "ROG Ally"
+    ],
+    "graphics": "Low"
+  }
+]

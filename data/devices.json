@@ -1,0 +1,826 @@
+{
+  "Acer": [
+    {
+      "id": "nitro5-1650",
+      "model": "Nitro 5 - GTX 1650",
+      "tier": "Low",
+      "cpu": "Core i5 / Ryzen 5",
+      "gpu": "GTX 1650"
+    },
+    {
+      "id": "nitrov-2050",
+      "model": "Nitro V 15 - RTX 2050",
+      "tier": "Mid",
+      "cpu": "Core i5-13420H",
+      "gpu": "RTX 2050"
+    },
+    {
+      "id": "blaze-7",
+      "model": "Nitro Blaze 7",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 8840HS",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "blaze-8",
+      "model": "Nitro Blaze 8",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 8840HS",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "blaze-11",
+      "model": "Nitro Blaze 11",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 8840HS",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "predator-4060",
+      "model": "Predator Helios Neo 16 - RTX 4060",
+      "tier": "High",
+      "cpu": "Core i5/i7 HX",
+      "gpu": "RTX 4060"
+    },
+    {
+      "id": "nitrov-3050",
+      "model": "Nitro V 15 - RTX 3050",
+      "tier": "Mid",
+      "cpu": "Core i5 / Ryzen 5",
+      "gpu": "RTX 3050"
+    },
+    {
+      "id": "nitrov-4050",
+      "model": "Nitro V 15 - RTX 4050",
+      "tier": "Mid",
+      "cpu": "Core i5/i7 / Ryzen 5/7",
+      "gpu": "RTX 4050"
+    },
+    {
+      "id": "nitro16-4060",
+      "model": "Nitro 16 - RTX 4060",
+      "tier": "High",
+      "cpu": "Core i7 / Ryzen 7",
+      "gpu": "RTX 4060"
+    },
+    {
+      "id": "triton14-4050",
+      "model": "Predator Triton 14 - RTX 4050",
+      "tier": "High",
+      "cpu": "Core i7 H",
+      "gpu": "RTX 4050"
+    }
+  ],
+  "ASUS": [
+    {
+      "id": "tuf-1650",
+      "model": "TUF Gaming F15 - GTX 1650",
+      "tier": "Low",
+      "cpu": "Core i5",
+      "gpu": "GTX 1650"
+    },
+    {
+      "id": "ally-z1",
+      "model": "ROG Ally - Ryzen Z1",
+      "tier": "Low",
+      "cpu": "Ryzen Z1",
+      "gpu": "Radeon integrated"
+    },
+    {
+      "id": "ally-z1e",
+      "model": "ROG Ally - Z1 Extreme",
+      "tier": "Mid",
+      "cpu": "Ryzen Z1 Extreme",
+      "gpu": "Radeon 780M-class"
+    },
+    {
+      "id": "ally-x",
+      "model": "ROG Ally X",
+      "tier": "Mid",
+      "cpu": "Ryzen Z1 Extreme",
+      "gpu": "Radeon 780M-class"
+    },
+    {
+      "id": "xbox-ally",
+      "model": "ROG Xbox Ally",
+      "tier": "Low",
+      "cpu": "Ryzen Z2 A",
+      "gpu": "Radeon integrated"
+    },
+    {
+      "id": "xbox-ally-x",
+      "model": "ROG Xbox Ally X",
+      "tier": "High",
+      "cpu": "Ryzen AI Z2 Extreme",
+      "gpu": "Radeon 890M-class"
+    },
+    {
+      "id": "strix-4060",
+      "model": "ROG Strix G16 - RTX 4060",
+      "tier": "High",
+      "cpu": "Core i7/i9 HX",
+      "gpu": "RTX 4060"
+    },
+    {
+      "id": "tuf-a15-3050",
+      "model": "TUF Gaming A15 - RTX 3050",
+      "tier": "Mid",
+      "cpu": "Ryzen 5/7",
+      "gpu": "RTX 3050"
+    },
+    {
+      "id": "tuf-a15-4050",
+      "model": "TUF Gaming A15 - RTX 4050",
+      "tier": "High",
+      "cpu": "Ryzen 7",
+      "gpu": "RTX 4050"
+    },
+    {
+      "id": "zephyrus-g14-4060",
+      "model": "ROG Zephyrus G14 - RTX 4060",
+      "tier": "High",
+      "cpu": "Ryzen 9",
+      "gpu": "RTX 4060"
+    },
+    {
+      "id": "flow-x13-4050",
+      "model": "ROG Flow X13 - RTX 4050",
+      "tier": "Mid",
+      "cpu": "Ryzen 9",
+      "gpu": "RTX 4050"
+    }
+  ],
+  "Dell": [
+    {
+      "id": "g15-1650",
+      "model": "G15 - GTX 1650",
+      "tier": "Low",
+      "cpu": "Core i5 / Ryzen 5",
+      "gpu": "GTX 1650"
+    },
+    {
+      "id": "g15-3050",
+      "model": "G15 - RTX 3050",
+      "tier": "Mid",
+      "cpu": "Core i5 / Ryzen 5",
+      "gpu": "RTX 3050"
+    },
+    {
+      "id": "alienware-4070",
+      "model": "Alienware m16 - RTX 4070",
+      "tier": "High",
+      "cpu": "Core i7/i9 HX",
+      "gpu": "RTX 4070"
+    },
+    {
+      "id": "g16-3050",
+      "model": "G16 - RTX 3050",
+      "tier": "Mid",
+      "cpu": "Core i7 H/HX",
+      "gpu": "RTX 3050"
+    },
+    {
+      "id": "g16-4050",
+      "model": "G16 - RTX 4050",
+      "tier": "Mid",
+      "cpu": "Core i7 H/HX",
+      "gpu": "RTX 4050"
+    },
+    {
+      "id": "g16-4060",
+      "model": "G16 - RTX 4060",
+      "tier": "High",
+      "cpu": "Core i7 H/HX",
+      "gpu": "RTX 4060"
+    },
+    {
+      "id": "alienware-x14-4050",
+      "model": "Alienware x14 - RTX 4050",
+      "tier": "Mid",
+      "cpu": "Core i7 H",
+      "gpu": "RTX 4050"
+    }
+  ],
+  "HP": [
+    {
+      "id": "victus-1650",
+      "model": "Victus 15 - GTX 1650",
+      "tier": "Low",
+      "cpu": "Core i5 / Ryzen 5",
+      "gpu": "GTX 1650"
+    },
+    {
+      "id": "victus-3050",
+      "model": "Victus 16 - RTX 3050",
+      "tier": "Mid",
+      "cpu": "Core i5 / Ryzen 5",
+      "gpu": "RTX 3050"
+    },
+    {
+      "id": "omen-4060",
+      "model": "OMEN 16 - RTX 4060",
+      "tier": "High",
+      "cpu": "Core i7 / Ryzen 7",
+      "gpu": "RTX 4060"
+    },
+    {
+      "id": "victus-2050",
+      "model": "Victus 15 - RTX 2050",
+      "tier": "Mid",
+      "cpu": "Core i5 / Ryzen 5",
+      "gpu": "RTX 2050"
+    },
+    {
+      "id": "victus-4050",
+      "model": "Victus 16 - RTX 4050",
+      "tier": "Mid",
+      "cpu": "Core i5/i7 / Ryzen 5/7",
+      "gpu": "RTX 4050"
+    },
+    {
+      "id": "omen-transcend14-4060",
+      "model": "OMEN Transcend 14 - RTX 4060",
+      "tier": "High",
+      "cpu": "Core Ultra 7/9",
+      "gpu": "RTX 4060"
+    },
+    {
+      "id": "omen17-4070",
+      "model": "OMEN 17 - RTX 4070",
+      "tier": "High",
+      "cpu": "Core i7/i9 HX",
+      "gpu": "RTX 4070"
+    }
+  ],
+  "Lenovo": [
+    {
+      "id": "ideapad-1650",
+      "model": "IdeaPad Gaming 3 - GTX 1650",
+      "tier": "Low",
+      "cpu": "Core i5 / Ryzen 5",
+      "gpu": "GTX 1650"
+    },
+    {
+      "id": "loq-3050",
+      "model": "LOQ 15 - RTX 3050",
+      "tier": "Mid",
+      "cpu": "Core i5 / Ryzen 5",
+      "gpu": "RTX 3050"
+    },
+    {
+      "id": "legion-go",
+      "model": "Legion Go",
+      "tier": "Mid",
+      "cpu": "Ryzen Z1 Extreme",
+      "gpu": "Radeon 780M-class"
+    },
+    {
+      "id": "legion-go-s-z2",
+      "model": "Legion Go S - Ryzen Z2 Go",
+      "tier": "Low",
+      "cpu": "Ryzen Z2 Go",
+      "gpu": "Radeon integrated"
+    },
+    {
+      "id": "legion-go-s-z1e",
+      "model": "Legion Go S - Z1 Extreme",
+      "tier": "Mid",
+      "cpu": "Ryzen Z1 Extreme",
+      "gpu": "Radeon 780M-class"
+    },
+    {
+      "id": "legion-go-2",
+      "model": "Legion Go 2",
+      "tier": "High",
+      "cpu": "Ryzen Z2 Extreme",
+      "gpu": "Radeon 890M-class"
+    },
+    {
+      "id": "legion-4060",
+      "model": "Legion 5 - RTX 4060",
+      "tier": "High",
+      "cpu": "Core i7 / Ryzen 7",
+      "gpu": "RTX 4060"
+    },
+    {
+      "id": "loq-2050",
+      "model": "LOQ 15 - RTX 2050",
+      "tier": "Mid",
+      "cpu": "Core i5 / Ryzen 5",
+      "gpu": "RTX 2050"
+    },
+    {
+      "id": "loq-4050",
+      "model": "LOQ 15 - RTX 4050",
+      "tier": "Mid",
+      "cpu": "Core i5/i7 / Ryzen 5/7",
+      "gpu": "RTX 4050"
+    },
+    {
+      "id": "legion-slim5-4050",
+      "model": "Legion Slim 5 - RTX 4050",
+      "tier": "High",
+      "cpu": "Core i7 / Ryzen 7",
+      "gpu": "RTX 4050"
+    },
+    {
+      "id": "legion-slim5-4060",
+      "model": "Legion Slim 5 - RTX 4060",
+      "tier": "High",
+      "cpu": "Core i7 / Ryzen 7",
+      "gpu": "RTX 4060"
+    },
+    {
+      "id": "legion-pro5-4070",
+      "model": "Legion Pro 5 - RTX 4070",
+      "tier": "High",
+      "cpu": "Core i9 / Ryzen 9 HX",
+      "gpu": "RTX 4070"
+    }
+  ],
+  "MSI": [
+    {
+      "id": "gf63-1650",
+      "model": "GF63 Thin - GTX 1650",
+      "tier": "Low",
+      "cpu": "Core i5",
+      "gpu": "GTX 1650"
+    },
+    {
+      "id": "cyborg-4050",
+      "model": "Cyborg 15 - RTX 4050",
+      "tier": "Mid",
+      "cpu": "Core i7",
+      "gpu": "RTX 4050"
+    },
+    {
+      "id": "claw-a1m",
+      "model": "Claw A1M",
+      "tier": "Mid",
+      "cpu": "Core Ultra 5/7",
+      "gpu": "Intel Arc integrated"
+    },
+    {
+      "id": "claw-7-ai",
+      "model": "Claw 7 AI+",
+      "tier": "High",
+      "cpu": "Core Ultra 7 258V",
+      "gpu": "Intel Arc 140V"
+    },
+    {
+      "id": "claw-8-ai",
+      "model": "Claw 8 AI+",
+      "tier": "High",
+      "cpu": "Core Ultra 7 258V",
+      "gpu": "Intel Arc 140V"
+    },
+    {
+      "id": "claw-a8",
+      "model": "Claw A8",
+      "tier": "High",
+      "cpu": "Ryzen Z2 Extreme",
+      "gpu": "Radeon 890M-class"
+    },
+    {
+      "id": "katana-4060",
+      "model": "Katana 15 - RTX 4060",
+      "tier": "High",
+      "cpu": "Core i7",
+      "gpu": "RTX 4060"
+    },
+    {
+      "id": "thin15-2050",
+      "model": "Thin 15 - RTX 2050",
+      "tier": "Mid",
+      "cpu": "Core i5/i7",
+      "gpu": "RTX 2050"
+    },
+    {
+      "id": "bravo15-6550m",
+      "model": "Bravo 15 - RX 6550M",
+      "tier": "Mid",
+      "cpu": "Ryzen 5/7",
+      "gpu": "Radeon RX 6550M"
+    },
+    {
+      "id": "katana-4050",
+      "model": "Katana 15 - RTX 4050",
+      "tier": "Mid",
+      "cpu": "Core i7",
+      "gpu": "RTX 4050"
+    },
+    {
+      "id": "pulse15-4060",
+      "model": "Pulse 15 - RTX 4060",
+      "tier": "High",
+      "cpu": "Core i7",
+      "gpu": "RTX 4060"
+    },
+    {
+      "id": "raider-ge68-4070",
+      "model": "Raider GE68 HX - RTX 4070",
+      "tier": "High",
+      "cpu": "Core i9 HX",
+      "gpu": "RTX 4070"
+    }
+  ],
+  "AYANEO": [
+    {
+      "id": "ayaneo-next-lite",
+      "model": "NEXT Lite",
+      "tier": "Low",
+      "cpu": "Ryzen 5 4500U",
+      "gpu": "Radeon Vega"
+    },
+    {
+      "id": "ayaneo-air-1s",
+      "model": "AIR 1S",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 7840U",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "ayaneo-2s",
+      "model": "AYANEO 2S",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 7840U",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "ayaneo-kun",
+      "model": "AYANEO KUN",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 7840U",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "ayaneo-slide",
+      "model": "AYANEO SLIDE",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 7840U",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "ayaneo-flip",
+      "model": "AYANEO FLIP KB / DS",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 8840U",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "ayaneo-3",
+      "model": "AYANEO 3",
+      "tier": "High",
+      "cpu": "Ryzen AI 9 HX 370",
+      "gpu": "Radeon 890M"
+    }
+  ],
+  "GPD": [
+    {
+      "id": "gpd-win-mini",
+      "model": "WIN Mini",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 7840U / 8840U",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "gpd-win-4",
+      "model": "WIN 4",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 7840U / 8840U",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "gpd-win-max-2",
+      "model": "WIN Max 2",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 8840U",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "gpd-win-5",
+      "model": "WIN 5",
+      "tier": "High",
+      "cpu": "Ryzen AI Max+",
+      "gpu": "Radeon 8060S-class"
+    }
+  ],
+  "OneXPlayer": [
+    {
+      "id": "onexfly",
+      "model": "ONEXFLY",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 7840U / 8840U",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "onexplayer-x1",
+      "model": "ONEXPLAYER X1",
+      "tier": "Mid",
+      "cpu": "Core Ultra / Ryzen 7 8840U",
+      "gpu": "Arc / Radeon 780M"
+    },
+    {
+      "id": "onexfly-f1-pro",
+      "model": "ONEXFLY F1 Pro",
+      "tier": "High",
+      "cpu": "Ryzen AI 9 HX 370",
+      "gpu": "Radeon 890M"
+    },
+    {
+      "id": "onexplayer-x1-pro",
+      "model": "ONEXPLAYER X1 Pro",
+      "tier": "High",
+      "cpu": "Ryzen AI 9 HX 370",
+      "gpu": "Radeon 890M"
+    }
+  ],
+  "AOKZOE": [
+    {
+      "id": "aokzoe-a1",
+      "model": "A1",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 6800U",
+      "gpu": "Radeon 680M"
+    },
+    {
+      "id": "aokzoe-a1-pro",
+      "model": "A1 Pro",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 7840U",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "aokzoe-a1x",
+      "model": "A1 X",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 8840U",
+      "gpu": "Radeon 780M"
+    }
+  ],
+  "ZOTAC": [
+    {
+      "id": "zotac-zone",
+      "model": "ZOTAC GAMING ZONE",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 8840U",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "zotac-zone-2",
+      "model": "ZONE 2",
+      "tier": "High",
+      "cpu": "Ryzen AI 9 HX 370",
+      "gpu": "Radeon 890M"
+    }
+  ],
+  "ANBERNIC": [
+    {
+      "id": "win600",
+      "model": "WIN600",
+      "tier": "Low",
+      "cpu": "Athlon Silver 3050e",
+      "gpu": "Radeon Vega 3"
+    }
+  ],
+  "Steam": [
+    {
+      "id": "deck-lcd",
+      "model": "Steam Deck LCD (Windows)",
+      "tier": "Mid",
+      "cpu": "AMD Zen 2 APU",
+      "gpu": "8 RDNA 2 CUs"
+    },
+    {
+      "id": "deck-oled",
+      "model": "Steam Deck OLED (Windows)",
+      "tier": "Mid",
+      "cpu": "AMD Zen 2 APU",
+      "gpu": "8 RDNA 2 CUs"
+    }
+  ],
+  "Razer": [
+    {
+      "id": "blade14-3060",
+      "model": "Blade 14 - RTX 3060",
+      "tier": "High",
+      "cpu": "Ryzen 9",
+      "gpu": "RTX 3060"
+    },
+    {
+      "id": "blade14-4050",
+      "model": "Blade 14 - RTX 4050",
+      "tier": "High",
+      "cpu": "Ryzen 9",
+      "gpu": "RTX 4050"
+    },
+    {
+      "id": "blade15-3060",
+      "model": "Blade 15 - RTX 3060",
+      "tier": "High",
+      "cpu": "Core i7 H",
+      "gpu": "RTX 3060"
+    },
+    {
+      "id": "blade16-4070",
+      "model": "Blade 16 - RTX 4070",
+      "tier": "High",
+      "cpu": "Core i9 HX",
+      "gpu": "RTX 4070"
+    }
+  ],
+  "GIGABYTE": [
+    {
+      "id": "gigabyte-g5-3050",
+      "model": "G5 - RTX 3050",
+      "tier": "Mid",
+      "cpu": "Core i5 H",
+      "gpu": "RTX 3050"
+    },
+    {
+      "id": "gigabyte-g5-4050",
+      "model": "G5 - RTX 4050",
+      "tier": "Mid",
+      "cpu": "Core i5 H",
+      "gpu": "RTX 4050"
+    },
+    {
+      "id": "aorus15-4060",
+      "model": "AORUS 15 - RTX 4060",
+      "tier": "High",
+      "cpu": "Core i7 H",
+      "gpu": "RTX 4060"
+    },
+    {
+      "id": "aorus17-4070",
+      "model": "AORUS 17 - RTX 4070",
+      "tier": "High",
+      "cpu": "Core i7/i9 HX",
+      "gpu": "RTX 4070"
+    }
+  ],
+  "MINISFORUM": [
+    {
+      "id": "minisforum-um780-xtx",
+      "model": "UM780 XTX",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 7840HS",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "minisforum-hx99g",
+      "model": "Neptune HX99G",
+      "tier": "High",
+      "cpu": "Ryzen 9 6900HX",
+      "gpu": "Radeon RX 6600M"
+    },
+    {
+      "id": "minisforum-g7-pt",
+      "model": "AtomMan G7 PT",
+      "tier": "High",
+      "cpu": "Ryzen 9 7945HX",
+      "gpu": "Radeon RX 7600M XT"
+    }
+  ],
+  "Beelink": [
+    {
+      "id": "beelink-ser5",
+      "model": "SER5",
+      "tier": "Low",
+      "cpu": "Ryzen 5 5560U / 5800H",
+      "gpu": "Radeon Vega"
+    },
+    {
+      "id": "beelink-ser7",
+      "model": "SER7",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 7840HS",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "beelink-ser8",
+      "model": "SER8",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 8845HS",
+      "gpu": "Radeon 780M"
+    }
+  ],
+  "Other Laptop / Mini PC": [
+    {
+      "id": "generic-intel-uhd",
+      "model": "Intel UHD Graphics",
+      "tier": "Low",
+      "cpu": "Intel Core i3/i5/i7",
+      "gpu": "Intel UHD Graphics"
+    },
+    {
+      "id": "generic-iris-xe",
+      "model": "Intel Iris Xe Graphics",
+      "tier": "Low",
+      "cpu": "Intel Core 11th-14th Gen",
+      "gpu": "Intel Iris Xe"
+    },
+    {
+      "id": "generic-radeon-vega",
+      "model": "AMD Radeon Vega Graphics",
+      "tier": "Low",
+      "cpu": "Ryzen 4000/5000 Series",
+      "gpu": "Radeon Vega"
+    },
+    {
+      "id": "generic-radeon-660m",
+      "model": "AMD Radeon 660M Graphics",
+      "tier": "Low",
+      "cpu": "Ryzen 5 6600U/HS",
+      "gpu": "Radeon 660M"
+    },
+    {
+      "id": "generic-radeon-680m",
+      "model": "AMD Radeon 680M Graphics",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 6800U/HS",
+      "gpu": "Radeon 680M"
+    },
+    {
+      "id": "generic-radeon-780m",
+      "model": "AMD Radeon 780M Graphics",
+      "tier": "Mid",
+      "cpu": "Ryzen 7 7840U/HS or 8840U/HS",
+      "gpu": "Radeon 780M"
+    },
+    {
+      "id": "generic-arc-140v",
+      "model": "Intel Arc 140V Graphics",
+      "tier": "High",
+      "cpu": "Core Ultra 7 258V",
+      "gpu": "Intel Arc 140V"
+    }
+  ],
+  "Other Windows Handheld": [
+    {
+      "id": "handheld-entry",
+      "model": "Ryzen 4500U / 5560U / Z1 / Z2 Go",
+      "tier": "Low",
+      "cpu": "Entry mobile APU",
+      "gpu": "Vega / entry RDNA"
+    },
+    {
+      "id": "handheld-mainstream",
+      "model": "Ryzen 6800U / 7840U / 8840U / Z1 Extreme",
+      "tier": "Mid",
+      "cpu": "Mainstream handheld APU",
+      "gpu": "Radeon 680M / 780M"
+    },
+    {
+      "id": "handheld-flagship",
+      "model": "HX 370 / Z2 Extreme / Ryzen AI Max",
+      "tier": "High",
+      "cpu": "Flagship handheld APU",
+      "gpu": "Radeon 890M-class or better"
+    }
+  ],
+  "Custom Desktop": [
+    {
+      "id": "desktop-1050",
+      "model": "GTX 1050 Ti / RX 560",
+      "tier": "Low",
+      "cpu": "Core i5-4460 / Ryzen 3 1200",
+      "gpu": "GTX 1050 Ti / RX 560"
+    },
+    {
+      "id": "desktop-1650",
+      "model": "GTX 1650 / RX 570",
+      "tier": "Low",
+      "cpu": "Core i5-6500 / Ryzen 3 1200",
+      "gpu": "GTX 1650 / RX 570"
+    },
+    {
+      "id": "desktop-1660",
+      "model": "GTX 1660 / RX 5600 XT",
+      "tier": "Mid",
+      "cpu": "Core i5-8400 / Ryzen 5 2600",
+      "gpu": "GTX 1660 / RX 5600 XT"
+    },
+    {
+      "id": "desktop-2060",
+      "model": "RTX 2060 / RX 6600",
+      "tier": "Mid",
+      "cpu": "Core i5-9400 / Ryzen 5 3600",
+      "gpu": "RTX 2060 / RX 6600"
+    },
+    {
+      "id": "desktop-3060",
+      "model": "RTX 3060 / RX 6700 XT",
+      "tier": "High",
+      "cpu": "Core i5-12400 / Ryzen 5 5600",
+      "gpu": "RTX 3060 / RX 6700 XT"
+    },
+    {
+      "id": "desktop-4060",
+      "model": "RTX 4060 or higher",
+      "tier": "High",
+      "cpu": "Core i5-12400 / Ryzen 5 5600",
+      "gpu": "RTX 4060 or higher"
+    }
+  ]
+}
